@@ -12,6 +12,7 @@ public class BanmiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_banmi);
         log.e("123","123");
-
+        log.e("123","123"); 
+        log.e("123","123");
     }
 }

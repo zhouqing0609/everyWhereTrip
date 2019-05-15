@@ -13,5 +13,6 @@ public class BanmiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_banmi);
         Log.e("", "onCreate: " );
+        Log.e("", "onCreate: " );
     }
 }

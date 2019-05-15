@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 
 import com.everywhere.trip.R;
 import com.everywhere.trip.bean.MoveBean;
-import com.everywhere.trip.model.MainDataBean;
 import com.everywhere.trip.net.EveryWhereService;
 import com.everywhere.trip.ui.main.adapter.MoveAdapter;
 

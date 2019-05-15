@@ -1,13 +1,12 @@
 package com.everywhere.trip.model;
 
 import com.everywhere.trip.base.BaseModel;
-import com.everywhere.trip.bean.LoginInfo;
+import com.everywhere.trip.bean.MainDataBean;
 import com.everywhere.trip.net.BaseObserver;
 import com.everywhere.trip.net.EveryWhereService;
 import com.everywhere.trip.net.HttpUtils;
 import com.everywhere.trip.net.ResultCallBack;
 import com.everywhere.trip.net.RxUtils;
-import com.everywhere.trip.util.Logger;
 
 import io.reactivex.disposables.Disposable;
 

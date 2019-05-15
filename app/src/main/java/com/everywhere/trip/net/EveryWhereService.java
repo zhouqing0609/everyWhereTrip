@@ -2,22 +2,19 @@ package com.everywhere.trip.net;
 
 import com.everywhere.trip.bean.Banmi;
 import com.everywhere.trip.bean.FollowedBanmi;
-import com.everywhere.trip.bean.LikeBean;
 import com.everywhere.trip.bean.LoginInfo;
 import com.everywhere.trip.bean.MainDataInfo;
 import com.everywhere.trip.bean.MoveBean;
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 
 import java.util.HashMap;
 
 import io.reactivex.Observable;
-import retrofit2.Response;
 import retrofit2.http.Field;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.Header;
-import retrofit2.http.Headers;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;

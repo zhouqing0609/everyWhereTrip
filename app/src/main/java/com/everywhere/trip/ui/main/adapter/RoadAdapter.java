@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.everywhere.trip.R;
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 
 import java.util.ArrayList;
 

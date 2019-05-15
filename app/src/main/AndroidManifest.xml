@@ -105,6 +105,10 @@
         <activity android:name=".ui.main.activity.WebViewJs"
             android:theme="@style/App"
             ></activity>
+
+        <meta-data
+            android:name="channel"
+            android:value="${CHANNEL_VALUE}" />
     </application>
 
 </manifest>

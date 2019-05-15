@@ -1,8 +1,7 @@
 package com.everywhere.trip.presenter;
 
 import com.everywhere.trip.base.BasePresenter;
-import com.everywhere.trip.bean.LoginInfo;
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 import com.everywhere.trip.model.MainMoudle;
 import com.everywhere.trip.net.ResultCallBack;
 import com.everywhere.trip.view.main.MainView;

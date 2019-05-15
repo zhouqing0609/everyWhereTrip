@@ -13,14 +13,12 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.everywhere.trip.R;
 
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 import com.youth.banner.Banner;
 import com.youth.banner.loader.ImageLoader;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import retrofit2.http.Url;
 
 /**
  * Created by 灵风 on 2019/5/5.

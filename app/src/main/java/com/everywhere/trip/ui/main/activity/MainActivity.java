@@ -18,13 +18,12 @@ import android.widget.TextView;
 
 import com.everywhere.trip.R;
 import com.everywhere.trip.base.BaseActivity;
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 import com.everywhere.trip.presenter.MainPresenter;
 import com.everywhere.trip.ui.main.adapter.MyViewPagerAdapter;
 import com.everywhere.trip.ui.main.fragment.FirstFragment;
 import com.everywhere.trip.ui.main.fragment.SecondFragment;
 import com.everywhere.trip.util.SPutils;
-import com.everywhere.trip.util.SpUtil;
 import com.everywhere.trip.view.main.MainView;
 import com.jaeger.library.StatusBarUtil;
 

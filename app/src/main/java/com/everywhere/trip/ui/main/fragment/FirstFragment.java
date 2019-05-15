@@ -2,19 +2,15 @@ package com.everywhere.trip.ui.main.fragment;
 
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.RelativeLayout;
 
 import com.everywhere.trip.R;
 import com.everywhere.trip.base.BaseFragment;
 import com.everywhere.trip.base.Constants;
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 import com.everywhere.trip.presenter.MainPresenter;
 import com.everywhere.trip.ui.main.activity.HomeInfoActivity;
 import com.everywhere.trip.ui.main.activity.WebViewJs;
@@ -26,7 +22,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**

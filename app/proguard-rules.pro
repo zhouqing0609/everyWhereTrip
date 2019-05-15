@@ -20,7 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
-
 -dontwarn javax.annotation.**
 -dontwarn javax.inject.**
 # OkHttp3
@@ -104,8 +103,7 @@
   -ignorewarning
 
   ##记录生成的日志数据,gradle build时在本项目根目录输出##
-  #apk 包内所有 class 的内部结构
-  -dump proguard/class_files.txt
+
   #未混淆的类和成员
   -printseeds proguard/seeds.txt
   #列出从 apk 中删除的代码
@@ -220,6 +218,8 @@
 -keep public class * extends android.support.v4.**
 -keep public class * extends android.app.Fragment
 
+# 保留内嵌类不被混淆
+-keep class com.everywhere.trip.ui.main.adapter.** { *; }
 
 #Glide
 -keep public class * implements com.bumptech.glide.module.GlideModule
@@ -232,6 +232,11 @@
 
 #glide.transformations
 -keep class jp.wasabeef.glide.transformations.**
+
+#banner
+-keep class com.youth.banner.**
+
+
 
 #butterknife
 -keep class butterknife.** { *; }
@@ -352,4 +357,3 @@
 -keep class com.android.dingtalk.share.ddsharemodule.** { *; }
 -keepattributes Signature
     #友盟配置  end
-

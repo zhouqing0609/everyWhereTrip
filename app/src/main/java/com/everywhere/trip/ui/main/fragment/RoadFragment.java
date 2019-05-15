@@ -10,10 +10,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
 
 import com.everywhere.trip.R;
-import com.everywhere.trip.model.MainDataBean;
+import com.everywhere.trip.bean.MainDataBean;
 import com.everywhere.trip.net.EveryWhereService;
 import com.everywhere.trip.ui.main.adapter.RoadAdapter;
 

@@ -18,5 +18,8 @@ public class BanmiActivity extends AppCompatActivity {
         Log.e("", "onCreate: " );
         Log.e("", "onCreate: " );
 
+        log.e("123","123");
+        log.e("123","123"); 
+        log.e("123","123");
     }
 }

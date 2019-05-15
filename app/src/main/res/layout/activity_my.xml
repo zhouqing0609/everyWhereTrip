@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/my_rl"
+    tools:context=".ui.main.activity.MyActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_74"
+        android:id="@+id/my_toonar"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dp_0"
+        android:layout_marginLeft="@dimen/dp_0"
+        >
+        <RelativeLayout
+            android:id="@+id/my_item"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            >
+
+            <ImageView
+            android:id="@+id/my_back"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@mipmap/back_white"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dp_17"
+            />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_16"
+                    android:textColor="@color/c_333333"
+                    android:layout_centerInParent="true"
+                    android:text="个人信息"
+                    />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/my_road"
+    android:text="获取途径"
+    android:layout_marginTop="@dimen/dp_76"
+    android:layout_marginLeft="@dimen/dp_15"
+    android:textColor="@color/c_666666"
+    />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_road"
+        android:layout_marginTop="@dimen/dp_10"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/dp_5"
+        app:cardCornerRadius="@dimen/dp_5"
+        android:layout_centerHorizontal="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:id="@+id/rlv_head"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/head"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/c_333333"
+                    android:layout_marginLeft="@dimen/dp_10"
+                  android:layout_centerVertical="true"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:src="@mipmap/head"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:id="@+id/my_head"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="@dimen/dp_327"
+               android:layout_marginLeft="@dimen/dp_3"
+                android:layout_height="@dimen/dp_2"
+                android:background="#f0f0f0" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:id="@+id/rlv_name"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/c_333333"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周小姐"
+                    android:maxEms="6"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:id="@+id/my_name"
+                    android:textColor="@color/c_999999"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="@dimen/dp_327"
+                android:layout_marginLeft="@dimen/dp_3"
+                android:layout_height="@dimen/dp_2"
+                android:background="#f0f0f0" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:id="@+id/rlv_sex"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="性别"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/c_333333"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="保密"
+                    android:id="@+id/sex"
+                    android:textColor="@color/c_999999"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="@dimen/dp_327"
+                android:layout_marginLeft="@dimen/dp_3"
+                android:layout_height="@dimen/dp_2"
+                android:background="#f0f0f0" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:id="@+id/rlv_sign"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个性签名"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/c_333333"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="四肢不全五体不勤"
+                    android:id="@+id/my_sign"
+                    android:maxEms="8"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/c_999999"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_road"
+        android:layout_marginTop="@dimen/dp_245"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/dp_5"
+        app:cardCornerRadius="@dimen/dp_5"
+        android:layout_centerHorizontal="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:id="@+id/rl_update"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改密码"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/c_333333"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_centerVertical="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="@dimen/dp_327"
+                android:layout_marginLeft="@dimen/dp_3"
+                android:layout_height="@dimen/dp_2"
+                android:background="#f0f0f0" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:id="@+id/rl_bind"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="绑定手机"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/c_333333"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/dp_50"-->
+                <!--&gt;-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/dp_50"-->
+                    <!--android:text="修改密码"-->
+                    <!--android:layout_marginLeft="@dimen/dp_10"-->
+                    <!--android:textColor="@color/c_333333"-->
+                   <!--android:layout_centerVertical="true"-->
+                    <!--/>-->
+           <!---->
+            <!--</RelativeLayout>-->
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/dp_0.5"-->
+                <!--android:layout_marginTop="@dimen/dp_55"-->
+                <!--android:background="@color/c_cecece"-->
+                <!--/>-->
+            <!---->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/dp_50"-->
+                <!--android:text="绑定手机"-->
+                <!--android:layout_marginLeft="@dimen/dp_10"-->
+                <!--android:textColor="@color/c_333333"-->
+                <!--/>-->
+            <!--</RelativeLayout>-->
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true"
+        android:text="退出登录"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        />
+
+
+</RelativeLayout>

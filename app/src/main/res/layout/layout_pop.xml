@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:id="@+id/mll"
+    >
+
+    <Button
+        android:id="@+id/pop_carmer"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/button"
+        android:text="打开相机"
+        android:textColor="@color/c_fefefe"
+        />
+    <Button
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/c_fefefe"
+        android:text="打开相册"
+        android:id="@+id/images"
+        />
+
+    <Button
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/c_fefefe"
+        android:text="取消"
+        android:id="@+id/canle"
+        />
+</LinearLayout>

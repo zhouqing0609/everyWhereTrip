@@ -12,7 +12,12 @@ public class BanmiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_banmi);
+<<<<<<< .mine
         Log.e("", "onCreate: " );
         Log.e("", "onCreate: " );
+=======
+        log.e("123","123");
+
+>>>>>>> .theirs
     }
 }
